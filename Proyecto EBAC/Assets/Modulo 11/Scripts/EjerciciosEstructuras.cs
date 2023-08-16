@@ -31,7 +31,7 @@ public class EjerciciosEstructuras : MonoBehaviour
         
 
         //Se usa el método listCreator para crear una lista con valores repeidos
-        ListCreator(20, 0, 5, out List<string> myNewStringList);
+        ListCreator(5, 0, 2, out List<string> myNewStringList);
         listCleaner(myNewStringList, out HashSet<string> myNewCleanHashSet);
         foreach(string s in myNewCleanHashSet) Debug.Log(s);
 
@@ -40,7 +40,7 @@ public class EjerciciosEstructuras : MonoBehaviour
         Debug.Log("=====Separador Funcion De Pila & Cola=====");
 
 
-        ListCreator(11, out Stack<string> myStack);
+        ListCreator(5, out Stack<string> myStack);
         destackerEnqueuer(myStack);
 
 
